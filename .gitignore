@@ -1,0 +1,33 @@
+# Raw Data files (tracked locally, hidden from Git/GitHub)
+data/raw/
+
+# Power BI temporary & backup files
+*.pbix.backup
+*.pbit
+auto-recovery*
+~$*
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Python & Jupyter checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environment & IDE
+.env
+venv/
+.venv/
+.vscode/
+.idea/
+
+# Scratch & Logs
+*.log
